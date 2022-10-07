@@ -1,0 +1,27 @@
+config git:
+git config –global user.name “your_username”
+git config –global user.email “your_emailid”
+	git config -l
+
+khởi tạo git:
+	git init
+
+connect:
+	git remote add origin  https://github.com/Shin-03/MyTest
+
+thêm file: 
+	git add .
+đẩy lên kho :
+	git push origin master
+clone git:
+	git clone https://github.com/Shin-03/MyTest
+tạo branch: 
+	git branch LeToan
+xoá branch:
+	git branch -D LeToan
+chuyển bra:
+	git checkout LeToan
+check bra:
+	git branch
+
+
